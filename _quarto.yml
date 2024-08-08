@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "SpatialSimBench"
+  description: "Spatial Benchmark"
+  navbar: 
+    left: 
+      - href: index.qmd
+        text: About
+      - href: results/index.qmd
+        text: Results
+
+format:
+  html:
+    page-layout: full
+    fontsize: "8"
+
+editor: visual
+
+page-footer:
+execute: 
+  center: "#&copy Sydney Precision Data Science Center"
